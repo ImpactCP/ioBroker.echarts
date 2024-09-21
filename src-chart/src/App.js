@@ -59,7 +59,7 @@ class App extends Component {
 
         this.divRef      = React.createRef();
         this.progressRef = React.createRef();
-        this.progressShown = true;
+        this.progressShown = false;
 
         // init translations
         const translations = {
