@@ -199,6 +199,7 @@ class App extends Component {
 
     showProgress(isShow) {
         this.progressShown = isShow;
+        return;
         if (this.progressRef.current) {
             this.progressRef.current.style.display = isShow ? 'block' : 'none';
         }
