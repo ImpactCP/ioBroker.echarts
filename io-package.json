@@ -1,7 +1,7 @@
 {
   "common": {
     "name": "echarts",
-    "version": "1.9.2c",
+    "version": "1.9.2d",
     "news": {
       "1.9.2": {
         "en": "Fixed polar and bar charts",
