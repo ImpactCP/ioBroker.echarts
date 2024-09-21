@@ -125,7 +125,7 @@ class App extends Component {
                             this.divRef.current.style.opacity = 0.5;
                         }
                         if (this.progressRef.current) {
-                            this.progressRef.current.style.display = 'block';
+                            this.progressRef.current.style.display = 'none';
                         }
                     } else {
                         this.setState({ connected: false });
